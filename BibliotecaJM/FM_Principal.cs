@@ -63,8 +63,9 @@ namespace BibliotecaJM
                 MdiChildren[0].Close();
             formulario.MdiParent = this;
             formulario.Dock = DockStyle.Fill;
-            formulario.Show();
             this.Text = título;
+            formulario.Show();
+
         }
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
